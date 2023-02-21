@@ -1,3 +1,5 @@
 creation_rules:
-  - encrypted_regex: "^(users|data|stringData)$"
-    pgp: 145C 1680 C6FE F312 9EB0  7E35 7307 53EF DAD7 478E
+  - path_regex: .*.yaml
+    encrypted_regex: '^(data|stringData)$'
+    age:
+      age1vcu4upydk5znaawqu8jt6el9grkrvsm4zsxkm7spsp72kjsw352sd2v77f

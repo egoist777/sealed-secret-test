@@ -11,5 +11,5 @@ configMapGenerator:
   literals:
   - mongo-server=mongodb-service
 
-patches:
+patchesStrategicMerge:
  - mongo-express.yaml

@@ -10,3 +10,6 @@ configMapGenerator:
 - name: mongo-cm
   literals:
   - mongo-server=mongodb-service
+
+patches:
+ - mongo-express.yaml
